@@ -1,0 +1,89 @@
+﻿input[type='submit'], button, [aria-label] {
+    cursor: pointer;
+}
+
+#editForm {
+    display: none;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.header-group {
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    line-height: 5px;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.counter {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
+
+.page-backdrop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(#1A172E,#0D0D0D);
+}
+
+.form-container {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #3243A6;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    top: 250px;
+    box-shadow: 5px 5px;
+}
+
+table {
+    box-shadow: 3px 3px;
+}
+
+.sub-header {
+    color: #8693DF;
+    font-size: small;
+}
+
+.tRows {
+    background-color: #363B59;
+}
+
+.warning {
+    color: red;
+    border: solid 1px black;
+}
+
+.success {
+    color: green;
+    border: solid 1px black;
+}
+
+td {
+    color: white;
+    border: solid 1px black;
+}

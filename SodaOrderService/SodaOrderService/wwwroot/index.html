@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Easee Fizz-Buzz Soda</title>
+    <link rel="stylesheet" href="/css/alt.css" />
+</head>
+<body>
+    <div class="page-backdrop">
+        <div class="form-container">
+            <div class="header-group">
+                <h1 class="header">Fizz-Buzz Soda</h1>
+                <h4 class="sub-header">a project for easee</h4>
+                <h4 class="sub-header">by Benjamin Ravnå</h4>
+            </div>
+            <h3 class="orderHeader">Select a soda to order</h3>
+            <form action="javascript:void(0);" method="POST" onsubmit="addOrder()">
+                <select class="selector" id="soda-selector" name="select-sodas">
+                    <option value="coke" selected>Coke</option>
+                    <option value="sprite">Sprite</option>
+                    <option value="pepsi max">Pepsi Max</option>
+                    <option value="urge">Urge</option>
+                    <option value="fanta lemon">Fanta Lemon</option>
+                    <option value="mineral water">Mineral Water</option>
+                    <option value="fanta exotic">Fanta Exotic</option>
+                </select>
+                <button href="#" type="submit">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Order
+                </button>
+            </form>
+
+
+
+            <div id="counter" class="counter"></div>
+
+            <table>
+                <tr>
+                    <th>OrderId</th>
+                    <th>Soda</th>
+                    <th>Retrival Pin</th>
+                    <th>Status</th>
+                </tr>
+                <tbody class="tRows" id="sodaOrders" ></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+</body>
+</html>

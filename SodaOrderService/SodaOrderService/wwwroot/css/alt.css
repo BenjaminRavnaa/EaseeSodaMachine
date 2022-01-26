@@ -1,0 +1,223 @@
+﻿
+.header-group {
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    line-height: 5px;
+    text-align:  center;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.counter {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    background-color: #fff;
+    box-shadow: 0 0 5px #000000, 0 0 25px #000000, 0 0 25px #000000;
+    border-radius: 8px 8px 0px 0px;
+    margin: auto;
+}
+
+th {
+    background-color: #fff;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.sub-header {
+    color: #8693DF;
+    font-size: small;
+}
+
+.tRows {
+    background-color: #0D151F;
+}
+
+.warning {
+    color: red;
+    border: solid 1px black;
+}
+
+.success {
+    color: green;
+    border: solid 1px black;
+}
+
+td {
+    color: white;
+    border: solid 1px black;
+}
+
+html {
+    height: 100%;
+}
+
+.orderHeader {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 8px;
+}
+
+form {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.selector {
+    display: flex;
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border-style: solid;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4;
+    background-color: #0c121d;
+    color: white;
+    border-color: #03e9f4;
+}
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+    .form-container h1 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+    }
+
+    .form-container form button {
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #03e9f4;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .5s;
+        letter-spacing: 4px; 
+        background-color: transparent;
+        border: none;
+    }
+
+    .form-container button:hover {
+        background: #03e9f4;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4;
+    }
+
+    .form-container button span {
+        position: absolute;
+        display: block;
+    }
+
+        .form-container button span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #03e9f4);
+            animation: btn-anim1 1s linear infinite;
+        }
+
+@keyframes btn-anim1 {
+    0% {
+        left: -100%;
+    }
+
+    50%,100% {
+        left: 100%;
+    }
+}
+
+.form-container button span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+    0% {
+        top: -100%;
+    }
+
+    50%,100% {
+        top: 100%;
+    }
+}
+
+.form-container button span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+    0% {
+        right: -100%;
+    }
+
+    50%,100% {
+        right: 100%;
+    }
+}
+
+.form-container button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+    0% {
+        bottom: -100%;
+    }
+
+    50%,100% {
+        bottom: 100%;
+    }
+}
